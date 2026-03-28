@@ -8,6 +8,7 @@
   --line: rgba(31, 29, 26, 0.12);
   --accent: #6f7a66;
   --accent-strong: #2e352b;
+  --button-primary-text: #f5efe6;
   --hero-text: rgba(31, 29, 26, 0.86);
   --header-border: rgba(31, 29, 26, 0.08);
   --header-bg: rgba(251, 247, 241, 0.58);
@@ -40,6 +41,7 @@
   --line: rgba(226, 234, 245, 0.14);
   --accent: #c3d1bf;
   --accent-strong: #e6efe5;
+  --button-primary-text: #1d2a44;
   --hero-text: rgba(243, 246, 251, 0.94);
   --header-border: rgba(226, 234, 245, 0.12);
   --header-bg: rgba(13, 18, 27, 0.74);
@@ -496,7 +498,7 @@ h1 {
 
 .button-primary {
   background: var(--accent-strong);
-  color: #f5efe6;
+  color: var(--button-primary-text);
 }
 
 .button-secondary {
